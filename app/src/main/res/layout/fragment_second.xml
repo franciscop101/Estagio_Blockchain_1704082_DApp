@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_getBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="getBalance"
+        android:textColor="#000000"
+        app:backgroundTint="#A6C4FF"
+        app:layout_constraintEnd_toEndOf="@+id/button_balanceReceived"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="@+id/button_balanceReceived"
+        app:layout_constraintTop_toBottomOf="@+id/button_balanceReceived" />
+
+    <Button
+        android:id="@+id/button_gethdgethd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="gethd"
+        android:textColor="#000000"
+        app:backgroundTint="#A6C4FF"
+        app:layout_constraintEnd_toEndOf="@+id/button_getBalance"
+        app:layout_constraintStart_toStartOf="@+id/button_getBalance"
+        app:layout_constraintTop_toBottomOf="@+id/button_getBalance" />
+
+    <Button
+        android:id="@+id/button_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="state"
+        android:textColor="#000000"
+        app:backgroundTint="#A6C4FF"
+        app:layout_constraintEnd_toEndOf="@+id/button_seller"
+        app:layout_constraintStart_toStartOf="@+id/button_seller"
+        app:layout_constraintTop_toBottomOf="@+id/button_seller" />
+
+    <Button
+        android:id="@+id/button_abort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="abort "
+        android:textColor="#000000"
+        app:backgroundTint="#A6C4FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_withdrawMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="withdrawMoney"
+        android:textColor="#000000"
+        app:backgroundTint="#A6C4FF"
+        app:layout_constraintEnd_toEndOf="@+id/button_purchase"
+        app:layout_constraintStart_toStartOf="@+id/button_purchase"
+        app:layout_constraintTop_toBottomOf="@+id/button_purchase" />
+
+    <Button
+        android:id="@+id/button_purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="purchase"
+        android:textColor="#000000"
+        app:backgroundTint="#A6C4FF"
+        app:layout_constraintEnd_toEndOf="@+id/button_abort"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/button_abort"
+        app:layout_constraintTop_toBottomOf="@+id/button_abort" />
+
+    <Button
+        android:id="@+id/button_seller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="seller"
+        android:textColor="#000000"
+        app:backgroundTint="#A6C4FF"
+        app:layout_constraintEnd_toEndOf="@+id/button_gethdgethd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_gethdgethd"
+        app:layout_constraintTop_toBottomOf="@+id/button_gethdgethd" />
+
+    <Button
+        android:id="@+id/button_balanceReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="balanceReceived"
+        android:textColor="#000000"
+        app:backgroundTint="#A6C4FF"
+        app:layout_constraintEnd_toEndOf="@+id/button_withdrawMoney"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/button_withdrawMoney"
+        app:layout_constraintTop_toBottomOf="@+id/button_withdrawMoney" />
+
+    <Button
+        android:id="@+id/button_editDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="48dp"
+        android:text="editDescription"
+        android:textColor="#000000"
+        app:backgroundTint="#A6C4FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_state"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/button_state"
+        app:layout_constraintTop_toBottomOf="@+id/button_state" /><![CDATA[
+            />
+
+        ]]>
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+
+
