@@ -3,46 +3,46 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/Home">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/Home"
         android:name="com.example.sell__house.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first" >
+        android:label="Home"
+        tools:layout="@layout/fragment_first">
 
         <action
             android:id="@+id/action_FirstFragment_to_pagInicialFragment"
-            app:destination="@id/pagInicialFragment" />
+            app:destination="@id/ContractData" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/Operations"
         android:name="com.example.sell__house.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second" >
+        android:label="Operations"
+        tools:layout="@layout/fragment_second">
         <action
             android:id="@+id/action_SecondFragment_to_thirdFragment5"
-            app:destination="@id/thirdFragment5" />
+            app:destination="@id/EditHouseDescription" />
     </fragment>
     <fragment
-        android:id="@+id/thirdFragment5"
+        android:id="@+id/EditHouseDescription"
         android:name="com.example.sell__house.ThirdFragment"
-        android:label="fragment_third"
-        tools:layout="@layout/fragment_third" >
+        android:label="Edit House Description"
+        tools:layout="@layout/fragment_third">
         <action
             android:id="@+id/action_thirdFragment5_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/Operations" />
     </fragment>
     <fragment
-        android:id="@+id/pagInicialFragment"
+        android:id="@+id/ContractData"
         android:name="com.example.sell__house.PagInicialFragment"
-        android:label="fragment_pag_inicial"
-        tools:layout="@layout/fragment_pag_inicial" >
+        android:label="Contract Data"
+        tools:layout="@layout/fragment_pag_inicial">
         <action
             android:id="@+id/action_pagInicialFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            app:destination="@id/Home" />
         <action
             android:id="@+id/action_pagInicialFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/Operations" />
     </fragment>
 </navigation>
